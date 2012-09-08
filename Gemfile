@@ -16,6 +16,11 @@ end
 
 gem 'sqlite3-ruby', :require => 'sqlite3'
 
+group :test do
+  gem 'capybara', '1.1.2'
+end
+
+
 # Use unicorn as the web server
 # gem 'unicorn'
 
